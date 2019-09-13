@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <!--Here I define the Title for the page, this will show up in the browser tab window and may be used by search engines, facebook and other sites-->
+        <title>Basic HTML5 Structure</title>
+
+        <!--Here I define the base URI for relative paths, this allows me to load pages relative to this url if I wish to-->
+        <!--<base href="https://www.w3schools.com/" target="_blank">-->        
+
+        <!--Here I define (or not) some default styling, this is where some CSS will be done-->
+		<style></style>
+        
+        <!--Alternative, or, together, I can also load a stylesheet-->
+        <!--<link rel="stylesheet" type="text/css" href="theme.css">-->
+
+        <!--or some other file, which I could use to insert information here, perhaps a template for the head are?-->
+        <!--<link rel="stylesheet" type="text/html" href="anotherfile.html">-->
+
+        <!--I always like to include this so that people who do not have javascript enabled know why the web page is broken-->
+		<noscript>
+			JavaScript is not supported or is disabled in your browser! - if you are using an older browser, you should try to upgrade, if javascript is disabled - you may need to re-enable it before attempting to load this page again. 
+        </noscript>
+        
+		<!--I define the UTF-8 char set, so if this page was loaded on a browser that didn't support UTF-8 it could show a message, or it could download utf-8 if it supported that function-->
+        <meta charset="UTF-8">
+        
+        <!--I use this space to define some keywords (focus keywords) I think will be good to target this page, often, this will be changed per page and has alot to do with both search and marketing and content discovery-->
+		<meta name="keywords"
+                       content="HTML,CSS,XML,JavaScript">
+                       
+        <!--I should always provide a textual description of this page where appropiate (any page that the public see's)-->
+		<meta name="description" 
+            content="Free Web tutorials">
+
+        <!--Some sites (such as google, facebook, instagram, wordpress, joomla) can use this to display the 'author' of the web page. This will often turn up when the link is shared on a blog. Usually a company name or blog author name-->
+		<meta name="author" 
+            content="Ivan Malone">
+
+        <!--Only used by software to place information as to what IDE created the page. If I craft a page by hand, sometimes I like to put secret messages in here but mostly it can be left out-->            
+		<meta name="generator" 
+            content="Visual Studio Code">
+
+        <!--Often this is the name of the application "netflix - google search - youtube - and is the same across all pages to reflect which application all these pages are apart of-->                        
+        <!--Often this will turn up in logs and weird places, such as Jira, Bitbucket, GitLab or anything which may use this site as a kind of 'application'-->
+
+		<meta name="application-name" 
+            content="Netflix Clone">
+
+        <!--This describes the setup we wish to have for this page's viewport, this is used to configure the screen scale, aspect ratio and other details-->                        
+		<meta name="viewport" 
+            content="width=device-width, initial-scale=1.0">
+        
+        <!--if we need to execute code here when the 'head' is loaded we can do so. Running code in head is often a good place to import or set initial variables or do some analytics or tracking of the page since it is executed before the body section-->                        
+        <script>
+            console.log("Browser parsed the <script> section and showed this debug message! it must be finished parsing the <head> section now!>");
+        </script>		
+    </head>
+    
+    <body> 
+		<h1> Welcome to </h1>
+		<h2> my web page</h2>
+		<button>		
+		</body>
+</html>
